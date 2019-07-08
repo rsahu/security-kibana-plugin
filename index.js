@@ -59,7 +59,7 @@ export default function (kibana) {
                         title: Joi.string().allow('').default('Please login to Kibana'),
                         subtitle: Joi.string().allow('').default('If you have forgotten your username or password, please ask your system administrator'),
                         showbrandimage: Joi.boolean().default(true),
-                        brandimage: Joi.string().default("/plugins/opendistro_security/assets/open_distro_for_elasticsearch_logo_h.svg"),
+                        brandimage: Joi.string().default("/plugins/opendistro_security/assets/invariant_logo.png"),
                         buttonstyle: Joi.string().allow('').default("")
                     }).default(),
                 }).default(),
